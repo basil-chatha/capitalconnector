@@ -580,10 +580,19 @@ Fill out this short form to get connected to the sponsor/entrepreneur on this de
   padding: 15px;
   text-align: left;
 }
+#myTable th:nth-child(1), #myTable td:nth-child(1) {
+  width: 50%; /* half the table width for each column */
+}
+#myTable th:nth-child(2), #myTable td:nth-child(2) {
+  width: 50%; /* half the table width for each column */
+}
 #myTable th {
   background-color: #ff7f50;
   color: white;
   text-align: center;
+}
+#myTable td {
+	font-size: small
 }
 #myTable tr:nth-child(even) {
   background-color: #f2f2f2;
